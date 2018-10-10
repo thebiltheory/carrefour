@@ -1,0 +1,36 @@
+.wrapper {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.input {
+  border: 1px solid #f8f8f8;
+  min-height: 46px;
+  border-radius: 5px;
+  width: calc(100% - 48px);
+  padding: 0 24px;
+
+  &:focus {
+    border-color: #05549f;
+  }
+}
+
+.error {
+  border-color: #f6303f;
+
+  &:focus {
+    outline-color: #f6303f;
+  }
+}
+
+.errorMessage {
+  position: absolute;
+  right: -4px;
+  top: -28px;
+  height: 20px;
+  background: #fff0f1;
+  color: #f6303f;
+  padding: 4px 8px;
+  font-size: 12px;
+  line-height: 21px;
+}

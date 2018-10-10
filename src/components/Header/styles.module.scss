@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 30%;
+  &svg {
+    max-height: 55px;
+  }
+}
+
+.searchbar {
+  width: 70%;
+}
