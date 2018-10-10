@@ -6,8 +6,9 @@ import styles from "./Styles.module.scss";
 
 const ProductList = () => (
   <div className={styles.wrapper}>
-    {products.map(product => (
+    {products.map((product, i) => (
       <ProductItem
+        key={`${product}-${i}`}
         title={product.title}
         thumb={product.thumb}
         alt={product.alt}

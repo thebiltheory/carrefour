@@ -3,7 +3,6 @@ import styles from "./styles.module.scss";
 export default class Input extends Component {
   render() {
     const { type, name, placeholder, value, onChange, hasError } = this.props;
-    console.log(hasError);
     return (
       <div className={styles.wrapper}>
         {hasError && (
